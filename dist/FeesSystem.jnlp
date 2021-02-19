@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FeesSystem.jnlp">
+  <information>
+    <title>FeesSystem</title>
+    <vendor>MEMO</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FeesSystem.jar" size="10100" download="eager" />
+  </resources>
+  <application-desc main-class="feessystem.FeesSystem"  name="FeesSystem" >
+  </application-desc>
+  <update check="background"/>
+</jnlp>
